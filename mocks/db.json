@@ -1,0 +1,72 @@
+{
+  "technologies": [
+    {
+      "name": "HTML",
+      "id": 1
+    },
+    {
+      "name": "CSS",
+      "id": 2
+    },
+    {
+      "name": "JavaScript",
+      "id": 3
+    },
+    {
+      "name": "TypeScript",
+      "id": 4
+    },
+    {
+      "name": "React",
+      "id": 5
+    },
+    {
+      "name": "HTML",
+      "id": 6
+    }
+  ],
+  "courses": [
+    {
+      "name": "HTML - basics",
+      "startDate": "09/17/2021",
+      "endDate": "10/15/2021",
+      "technologyId": 1,
+      "id": 1
+    },
+    {
+      "name": "CSS for begginers",
+      "startDate": "10/17/2021",
+      "endDate": "11/14/2021",
+      "technologyId": 2,
+      "id": 2
+    },
+    {
+      "name": "CSS advanced",
+      "startDate": "11/15/2021",
+      "endDate": "12/17/2021",
+      "technologyId": 2,
+      "id": 3
+    },
+    {
+      "name": "JavaScript - theory and practice",
+      "startDate": "01/02/2022",
+      "endDate": "03/01/2022",
+      "technologyId": 3,
+      "id": 4
+    },
+    {
+      "name": "TypeScript - all about types",
+      "startDate": "03/10/2022",
+      "endDate": "03/24/2022",
+      "technologyId": 4,
+      "id": 5
+    },
+    {
+      "name": "10 projects in React",
+      "startDate": "04/02/2022",
+      "endDate": "06/10/2022",
+      "technologyId": 5,
+      "id": 6
+    }
+  ]
+}

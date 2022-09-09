@@ -1,25 +1,41 @@
 import React from 'react';
-import logo from './logo.svg';
+import {AppBar, IconButton, Toolbar, Typography} from '@mui/material';
+
 import './App.css';
 
-function App() {
+import {
+  Routes,
+  Route,
+  Outlet,
+} from "react-router-dom";
+
+import TechnologyManager from "./components/technologies/TechnologyManager";
+import CourseManager from "./components/courses/CourseManager";
+import ErrorPage from "./components/error/ErrorPage";
+
+
+function App(): React.ReactElement {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="App">
+        <AppBar position="static" color="secondary">
+          <Toolbar variant="dense">
+            <IconButton edge="start" color="inherit" aria-label="menu" sx={{ mr: 2 }}>
+            </IconButton>
+            <Typography variant="h6" color="inherit" component="div">
+              Course Manager
+            </Typography>
+          </Toolbar>
+        </AppBar>
+
+        <Outlet />
+
+        <Routes>
+          <Route path="/" element={<TechnologyManager/>} />
+          <Route path="/technology/:id/courses" element={<CourseManager />} />
+          <Route path="*" element={<ErrorPage/>} />
+        </Routes>
+      </div>
   );
 }
 
