@@ -1,5 +1,12 @@
 ###  Project Manager
 
+This is a mini project that I created while learning TypeScript and React. Here you can keep a list of all the courses that you learn the given technology from.
+
+This is a way to keep information of all the courses that you take part in or you will.
+
+There is a list of technologies on the main page. You can add new technologies.
+By clicking on a given technology, you can see a list of courses that you take as part of learning this technology.
+
 - Data is downloaded and saved at JSON server
 
 For more info about using JSON Server, visit website:
