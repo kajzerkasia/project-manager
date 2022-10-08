@@ -67,6 +67,20 @@
       "endDate": "06/10/2022",
       "technologyId": 5,
       "id": 6
+    },
+    {
+      "name": "HTML - advanced",
+      "technologyId": 1,
+      "startDate": "10/08/2022",
+      "endDate": "11/30/2022",
+      "id": 7
+    },
+    {
+      "name": "HTML - pro",
+      "technologyId": 1,
+      "startDate": "10/08/2022",
+      "endDate": "11/21/2022",
+      "id": 8
     }
   ]
 }
