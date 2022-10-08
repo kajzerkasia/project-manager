@@ -8,7 +8,7 @@ const Technology = ({name, id}: ITechnology) => {
         <Box sx={{marginTop: '2vh', display: 'flex', justifyContent: 'center'}}>
             <div className="technology">
                 <Link to={`/technology/${id}/courses`}>
-                    <Button color="secondary">{name}</Button>
+                    <Button size="large" color="secondary">{name}</Button>
                 </Link>
             </div>
         </Box>
